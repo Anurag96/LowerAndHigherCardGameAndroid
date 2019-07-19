@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout android:id="@+id/AbsoluteLayout01" 
+android:layout_width="fill_parent" 
+android:background="@drawable/black"
+android:layout_height="fill_parent"
+ xmlns:android="http://schemas.android.com/apk/res/android">
+ <TextView android:layout_x="50dip"
+  android:layout_width="wrap_content" 
+  android:text="Names" 
+  android:layout_height="wrap_content" 
+  android:id="@+id/TextView01" 
+  android:layout_y="65dip"></TextView>
+<TextView android:layout_x="190dip" 
+android:layout_width="wrap_content" 
+android:text="Score" 
+android:layout_height="wrap_content" 
+android:id="@+id/TextView02" 
+android:layout_y="65dip">
+</TextView>
+<TextView android:layout_x="50dip" 
+android:layout_width="wrap_content"
+ android:text=""
+ android:textColor="#000fff"
+ android:textSize="15px"
+ android:textStyle="bold"
+  android:layout_height="wrap_content" 
+  android:id="@+id/name" 
+  android:layout_y="100dip"></TextView>
+  
+<TextView android:layout_x="190dip" 
+
+android:layout_width="wrap_content" 
+
+android:text="" 
+android:textSize="15px"
+android:layout_height="wrap_content" 
+android:id="@+id/score" 
+android:layout_y="100dip"></TextView>
+<Button android:layout_y="250dip" 
+android:text="Back" 
+android:background="@drawable/btn1"
+android:layout_x="180dip"
+android:textColor="#fff000"
+android:textSize="20px" 
+android:layout_width="60px" 
+android:id="@+id/back" 
+android:layout_height="50px"></Button>
+</AbsoluteLayout>
